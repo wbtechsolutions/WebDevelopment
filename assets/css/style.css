@@ -12478,9 +12478,9 @@ section {
   .about {
   padding: 0;
   }
-  .about .container {
+/*   .about .container {
     padding: 30px;
-  }
+  } */
 }
 .about .content h3, .about .content .h3 {
   font-weight: 400;
