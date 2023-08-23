@@ -11901,7 +11901,12 @@ textarea.form-control-lg {
   top: 0;
   bottom: 0;
 }
-
+@media (max-width: 768px) {
+  .phonenum {
+    color: #1768BE;
+    font-size:1.3rem;
+  }
+}
 /*--------------------------------------------------------------
 # Header Social Links
 --------------------------------------------------------------*/
