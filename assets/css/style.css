@@ -12428,6 +12428,13 @@ h6,
     background-attachment: fixed;
   }
 }
+
+@media (max-width: 1440px) {
+  #hero h1, #hero .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
 @media (max-width: 992px) {
   #hero h1, #hero .h1 {
     font-size: 32px;
@@ -12437,10 +12444,10 @@ h6,
     font-size: 20px;
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 768px) {
   #hero h1, #hero .h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
   }
 }
 /*--------------------------------------------------------------
