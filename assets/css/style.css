@@ -20461,6 +20461,7 @@ section {
 
 .services .title {
   font-weight: 700;
+  margin-top: 15px;
   margin-bottom: 15px;
   font-size: 18px;
 }
@@ -21182,7 +21183,6 @@ section {
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
-  font-size: 14px;
   color: #627680;
 }
 
