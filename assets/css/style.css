@@ -21878,12 +21878,15 @@ fieldset:disabled .btn {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  /* background: #f7f8f9; */
+  background-color: #e9f1f8;
   padding: 0 0 20px 0;
   color: #364146;
   font-size: 14px;
 }
-
+#footer a {
+  color: #1768be;
+  transition: 0.3s;
+}
 #footer .footer-top {
   background: #fff;
   padding: 60px 0 30px 0;
@@ -22021,7 +22024,6 @@ fieldset:disabled .btn {
 }
 
 #footer .credits {
-  padding-top: 8px;
   text-align: center;
   font-size: 13px;
   color: #364146;

@@ -226,9 +226,54 @@
 
       </div>
     </section><!-- End Services Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <!-- <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
 
+        <div class="section-title" data-aos="fade-up">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="zoom-in">
+            <img src="assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Project Title 1</h4>
+              <p>Web Design</p>
+              <a href="assets/img/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Project Title 1"><i class="bi bi-plus"></i></a>
+              <a href="#" class="portfolio-details-lightbox" data-glightbox="title: Project 1; description: Project details here" title="More Details"><i class="bi bi-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Project Title 2</h4>
+              <p>UI/UX Design</p>
+              <a href="assets/img/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Project Title 2"><i class="bi bi-plus"></i></a>
+              <a href="#" class="portfolio-details-lightbox" data-glightbox="title: Project 2; description: Project details here" title="More Details"><i class="bi bi-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Project Title 3</h4>
+              <p>E-Commerce</p>
+              <a href="assets/img/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Project Title 3"><i class="bi bi-plus"></i></a>
+              <a href="#" class="portfolio-details-lightbox" data-glightbox="title: Project 3; description: Project details here" title="More Details"><i class="bi bi-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    
+    <!-- End Portfolio Section -->
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact ">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -308,7 +353,11 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; <strong><span>Wb Technologies Solutions</span></strong>. All Rights Reserved
+        &copy; <span id="year"></span> <strong><span>WB Tech</span></strong>. All Rights Reserved
+
+        <script>
+          document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
       </div>
       <div class="credits">
         Designed by <a href="http://wbtechsolutions.in/">wbtechsolutions.in</a>
